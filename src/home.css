@@ -1,4 +1,4 @@
-:root {
+::root {
   --heading {
     font-family: 'SF Pro';
     font-style: normal;
@@ -27,12 +27,28 @@
     line-height: normal;
   }
 }
-
-body {
-  background-color: #F6F6F6;
-  padding: 2rem;
+.page .heading {
+  font-family: 'SF Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 190%;
+  text-transform: capitalize;
+  color: #191919;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
   margin: 2rem;
+  padding: 2rem;
 }
-.page .heading{
-  font: var(--heading);
+
+.page .subheading{
+  color: #191919;
+    font-size: 2rem;
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 150%;
 }
