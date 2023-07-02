@@ -1,54 +1,87 @@
-::root {
-  --heading {
-    font-family: 'SF Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 6rem;
-    line-height: 86.3%;
-    text-transform: capitalize;
-    color: #191919;
-  }
-
-  --subheading {
-    color: #191919;
-    font-size: 3.5rem;
-    font-family: 'SF Pro';
-    font-style: normal;
-    font-weight: 274;
-    line-height: 100%;
-  }
-
-  --para {
-    color: #191919;
-    font-size: 1rem;
-    font-family: 'SF Pro';
-    font-style: normal;
-    font-weight: 510;
-    line-height: normal;
-  }
-}
-.page .heading {
-  font-family: 'SF Pro';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 3rem;
-  line-height: 190%;
-  text-transform: capitalize;
-  color: #191919;
-  align-content: center;
-  text-align: center;
-  justify-content: center;
+.hpage{
+  margin: 4rem 0 0 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 2rem;
-  padding: 2rem;
 }
 
-.page .subheading{
+.hpage .hname{
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  font-size: 1rem;
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hpage .hportfolio{
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  font-size: 1rem;
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hpage .hheading{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  width: 40.375rem;
   color: #191919;
-    font-size: 2rem;
-    font-family: 'SF Pro';
-    font-style: normal;
-    font-weight: lighter;
-    line-height: 150%;
+  text-align: center;
+  font-size: 6rem;
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+.hpage .hpara{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap:1rem;
+}
+
+.hpara .hcontent1{
+  font-size: 1rem;
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width:13.5rem;
+}
+.hpara .hcontent2{
+  font-size: 1rem;
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 14rem;
+}
+
+.hpage .hsubheading{
+  float: right;
+  color: #191919;
+  font-size: 3.5rem;
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 110%;
+  width: 42rem;
+}
+.hsubheading p{
+  margin: 0;
+  padding: 0;
+}
+.hpara .hparent{
+  display:flex;
+  flex-direction: row;
 }

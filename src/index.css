@@ -1,38 +1,10 @@
-:root {
-  --heading {
-    font-family: 'SF Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 6rem;
-    line-height: 86.3%;
-    text-transform: capitalize;
-    color: #191919;
-  }
-
-  --subheading {
-    color: #191919;
-    font-size: 3.5rem;
-    font-family: 'SF Pro';
-    font-style: normal;
-    font-weight: 274;
-    line-height: 100%;
-  }
-
-  --para {
-    color: #191919;
-    font-size: 1rem;
-    font-family: 'SF Pro';
-    font-style: normal;
-    font-weight: 510;
-    line-height: normal;
-  }
+@font-face {
+  font-family: SF Pro;
+  src: url(/public/SF-Pro.ttf);
 }
-
 body {
-  background-color: #F6F6F6;
+  margin: 0;
   padding: 2rem;
-  margin: 2rem;
-}
-.page .heading{
-  font: var(--heading);
+  background-color: #F6F6F6;
+  font-family: SF Pro;
 }
