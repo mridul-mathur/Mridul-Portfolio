@@ -1,13 +1,18 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useContext, useEffect } from "react";
 import "./contact.css";
 import emailjs from '@emailjs/browser';
-import cv from "./MridulCV.pdf"
-
+import cv from "./MridulCV.pdf";
+import Contextor from "./context.js";
 
 let content = ["Contact", "Let's make", "something great!", "Hey my name is ", ",you can answer me on ", "I wanna collab for "];
-
-
 function Contact() {
+    const { contact } = useContext(Contextor);
+    const [clas, setClas] = useState(contact ? "display" : "hidden");
+    useEffect(() => {
+        setClas(contact ? "display" : "hidden");
+    }, [contact]);
+    console.log(contact);
+
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
@@ -24,9 +29,8 @@ function Contact() {
             });
     };
 
-
     return (
-        <div className="cpage" >
+        <div className={`cpage-${clas}`} >
             <div className="cparent1">
                 <div className="cheading">
                     <p className="p1"> {content[1]} </p>
@@ -41,13 +45,12 @@ function Contact() {
                         <label>{content[5]}</label>
                         <input required name="idea" placeholder="idea" className="idea" />
                         <div className="cbutton">
-                            <input type="submit" value="Send Idea"/>
+                            <input type="submit" value="Send Idea" />
                             <a href={cv} download="Mridul CV.pdf"> Get CV </a>
                         </div>
                     </form>
                 </div>
             </div>
-
         </div>
     );
 }

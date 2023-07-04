@@ -12,17 +12,21 @@ import './contact.css';
 import Contact from './contact';
 import './nav.css';
 import Nav from './nav';
-import barba from '@barba/core';
+import States from './contextstate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Nav />
-    <Home />
-    <Work />
-    <About />
-    <Contact />
-  </React.StrictMode>
+  <States>
+    <React.StrictMode>
+      <Nav />
+      <Home />
+      <Work />
+      <About />
+      <Contact />
+    </React.StrictMode>
+  </States>
+
+
 );
 
 // If you want to start measuring performance in your app, pass a function
