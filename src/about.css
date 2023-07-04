@@ -1,0 +1,117 @@
+.apage {
+  margin: 4rem 0 0 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aparent1 .aheading {
+  display: flex;
+  width: 24rem;
+  color: #191919;
+  font-size: 6rem;
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+
+.apage .aparent1 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.aparent1 .asubheading {
+  position: absolute;
+  right: 2rem;
+  float: right;
+  color: #191919;
+  font-size: 3.5rem;
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 110%;
+  width: 45rem;
+}
+
+.aheading p {
+  margin: 0;
+  padding: 0;
+}
+
+.asubheading p {
+  margin: 0;
+  padding: 0;
+}
+
+.aparent2 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: auto;
+}
+
+.askills .asubheading {
+  color: #191919;
+  font-size: 3.5rem;
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 110%;
+  width: 14rem;
+  margin-bottom: 0.5rem;
+}
+
+.askills .askillslist ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.aparent2 .apara {
+  margin-top:0.5rem;
+  position: absolute;
+  float: right;
+  right: 12rem;
+  width: 35rem;
+  font-size: 1rem;
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.aparent2 .apara1 p {
+  margin: 0;
+  padding: 0;
+}
+
+.aparent2 .apara2 p {
+  margin: 0;
+  padding: 0;
+}
+
+.atools ul {
+  color: #191919;
+  font-size: 3.5rem;
+  font-family: SF Pro;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 110%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}

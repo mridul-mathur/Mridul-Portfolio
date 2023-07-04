@@ -1,7 +1,10 @@
 import './home.css';
 import React from 'react';
 
-let content = ["Experienced In \n Learning", "over 10 personal projects, along with contribution to 3+ communities, and a year long experience in UI/UX & Web development.", "Build stunning visual aspects for your ideas in this growing digital world.", "26 . 05 . 2023", "Mridul Mathur", "Portfolio 2023"]
+import { motion } from "framer-motion";
+
+let content = ["Experienced In \n Learning", "over 10 personal projects, along with contribution to 3+ communities, and a year long experience in UI/UX & Web development.", "Build stunning visual aspects for your ideas in this growing digital world.", "26 . 05 . 2023", "Mridul Mathur", "Portfolio 2023"];
+
 function Home() {
   return (
     <div className="hpage">
@@ -30,4 +33,6 @@ function Home() {
     </div>
   );
 }
+
+
 export default Home;

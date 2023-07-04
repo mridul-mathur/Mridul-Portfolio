@@ -31,6 +31,37 @@ function Work() {
                 <div className="wcase">
                 </div>
             </div>
+            <div className="wparent3">
+                <div className="wprocessheading">
+                    <p> {content[9]} </p>
+                </div>
+                <div className="wprocess">
+                    <div className="wprocesscontent">
+                        <div className="wprocesscontenthead">
+                            <p> {content[11]} </p>
+                        </div>
+                        <div className="wprocesspara">
+                            <p> {content[12]} </p>
+                        </div>
+                    </div>
+                    <div className="wprocesscontent">
+                        <div className="wprocesscontenthead">
+                            <p> {content[13]} </p>
+                        </div>
+                        <div className="wprocesspara">
+                            <p> {content[14]} </p>
+                        </div>
+                    </div>
+                    <div className="wprocesscontent">
+                        <div className="wprocesscontenthead">
+                            <p> {content[15]} </p>
+                        </div>
+                        <div className="wprocesspara">
+                            <p> {content[16]} </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

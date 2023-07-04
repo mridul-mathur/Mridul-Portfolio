@@ -6,11 +6,22 @@ import reportWebVitals from './reportWebVitals';
 import './home.css'
 import './work.css'
 import Work from './work';
+import About from './about';
+import './about.css';
+import './contact.css';
+import Contact from './contact';
+import './nav.css';
+import Nav from './nav';
+import barba from '@barba/core';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Nav />
     <Home />
     <Work />
+    <About />
+    <Contact />
   </React.StrictMode>
 );
 

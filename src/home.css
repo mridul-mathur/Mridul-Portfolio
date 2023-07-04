@@ -1,4 +1,4 @@
-.hpage{
+.hpage {
   margin: 4rem 0 0 0;
   padding: 0;
   height: 100%;
@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-.hpage .hname{
+.hpage .hname {
   position: fixed;
   top: 2rem;
   left: 2rem;
@@ -17,7 +17,8 @@
   font-weight: 500;
   line-height: normal;
 }
-.hpage .hportfolio{
+
+.hpage .hportfolio {
   position: fixed;
   top: 2rem;
   right: 2rem;
@@ -28,7 +29,7 @@
   line-height: normal;
 }
 
-.hpage .hheading{
+.hpage .hheading {
   display: flex;
   justify-self: center;
   align-self: center;
@@ -42,23 +43,25 @@
   line-height: 100%;
   text-transform: capitalize;
 }
-.hpage .hpara{
+
+.hpage .hpara {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap:1rem;
+  gap: 1rem;
 }
 
-.hpara .hcontent1{
+.hpara .hcontent1 {
   font-size: 1rem;
   font-family: SF Pro;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width:13.5rem;
+  width: 13.5rem;
 }
-.hpara .hcontent2{
+
+.hpara .hcontent2 {
   font-size: 1rem;
   font-family: SF Pro;
   font-style: normal;
@@ -67,7 +70,7 @@
   width: 14rem;
 }
 
-.hpage .hsubheading{
+.hpage .hsubheading {
   float: right;
   color: #191919;
   font-size: 3.5rem;
@@ -77,11 +80,13 @@
   line-height: 110%;
   width: 42rem;
 }
-.hsubheading p{
+
+.hsubheading p {
   margin: 0;
   padding: 0;
 }
-.hpara .hparent{
-  display:flex;
+
+.hpara .hparent {
+  display: flex;
   flex-direction: row;
 }
