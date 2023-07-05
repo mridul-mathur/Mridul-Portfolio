@@ -3,9 +3,9 @@
     bottom: 0%;
     display: flex;
     overflow: hidden;
-    align-self: center;
     justify-content: column;
     padding: 2rem;
+    margin: 2rem;
     flex-direction: column;
     align-self: baseline;
     border-radius: 1.25rem 1.25rem 0rem 0rem;
@@ -15,23 +15,21 @@
     background: rgba(246, 246, 246, 0.75);
     backdrop-filter: blur(17.5px);
     z-index: 1;
-    transition: ease-out 0.5s;
+    transition: ease-in 1s;
 }
 .cpage-hidden {
-    position: fixed;
+    position: sticky;
     bottom: -100%;
-    overflow: none;
+    overflow: hidden;
     padding: 2rem;
-    width: 90%;
+    margin: 2rem;
     flex-direction: column;
-    align-self: baseline;
     border-radius: 1.25rem 1.25rem 0rem 0rem;
     border-top: 1px solid #191919;
     border-right: 1px solid #191919;
     border-left: 1px solid #191919;
     background: rgba(246, 246, 246, 0.75);
     backdrop-filter: blur(17.5px);
-    z-index: 1;
     transition: ease-out 1s;
 }
 

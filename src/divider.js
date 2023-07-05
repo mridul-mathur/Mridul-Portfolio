@@ -1,16 +1,10 @@
 import React from 'react';
 import './divider.css';
 
-function Divider(){
-    onscroll=(divider)=>{
-        if(divider.scrollTop>100){
-            divider.style.height="0px";
-        }
-    }
+function Divi(){
     return(
-    <div className="divider">
-        
+    <div className="divi">
     </div>
     )
 }
-export default Divider;
+export default Divi;

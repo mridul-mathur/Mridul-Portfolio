@@ -1,33 +1,12 @@
 .hpage {
-  margin: 4rem 0 0 0;
-  padding: 0;
+  background-color: #f6f6f6;
+  margin: 0 0 0 0;
+  padding: 8rem 2rem 4rem 2rem;
   height: 100%;
   width: 100%;
   display: flex;
   scroll-snap-align: start;
   flex-direction: column;
-}
-
-.hpage .hname {
-  position: fixed;
-  top: 2rem;
-  left: 2rem;
-  font-size: 1rem;
-  font-family: SF Pro;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.hpage .hportfolio {
-  position: fixed;
-  top: 2rem;
-  right: 2rem;
-  font-size: 1rem;
-  font-family: SF Pro;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
 
 .hpage .hheading {

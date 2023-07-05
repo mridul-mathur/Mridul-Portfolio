@@ -3,6 +3,7 @@ import Work from './work';
 import About from './about';
 import React from 'react'
 import './App.css'
+import Divider from './divider'
 
 function App() {
   return (
@@ -10,9 +11,11 @@ function App() {
       <section className='sec1'>
         <Home/>
       </section>
+      <Divider/>
       <section className='sec2'>
       <Work />
       </section>
+      <Divider/>
       <section className='sec3'>
       <About />
       </section>

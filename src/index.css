@@ -5,11 +5,11 @@
 html{
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  z-index: 10;
 }
 body {
-  margin: 2rem;
+  margin: 0;
   padding:0;
-  background-color: #F6F6F6;
+  background-color: #191919;
   font-family: SF Pro;
-  gap: 10rem;
 }

@@ -6,12 +6,6 @@ let content = ["Experienced In \n Learning", "over 10 personal projects, along w
 function Home() {
   return (
     <div className="hpage">
-        <div className="hname">
-            <p> {content[4]} </p>
-        </div>
-        <div className="hportfolio">
-            <p> {content[5]} </p>
-        </div>
         <div className="hheading">
             <p> {content[0]} </p>
         </div>

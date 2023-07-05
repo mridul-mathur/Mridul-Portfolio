@@ -1,13 +1,12 @@
 .apage {
-  margin: 4rem 0 0 0;
-  padding: 0;
+  padding:4rem 2rem;
   height: 100%;
-  scroll-snap-align: start;
   width: 100%;
+  scroll-snap-align: start;
   display: flex;
   flex-direction: column;
+  background-color: #f6f6f6;
 }
-
 .aparent1 .aheading {
   display: flex;
   width: 24rem;
