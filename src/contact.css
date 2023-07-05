@@ -20,8 +20,9 @@
 .cpage-hidden {
     position: fixed;
     bottom: -100%;
-    overflow: hidden;
+    overflow: none;
     padding: 2rem;
+    width: 90%;
     flex-direction: column;
     align-self: baseline;
     border-radius: 1.25rem 1.25rem 0rem 0rem;
