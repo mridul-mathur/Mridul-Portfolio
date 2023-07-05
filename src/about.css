@@ -2,6 +2,7 @@
   margin: 4rem 0 0 0;
   padding: 0;
   height: 100%;
+  scroll-snap-align: start;
   width: 100%;
   display: flex;
   flex-direction: column;
