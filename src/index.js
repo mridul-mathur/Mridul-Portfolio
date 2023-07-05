@@ -3,29 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './home';
 import reportWebVitals from './reportWebVitals';
-import './home.css'
-import './work.css'
 import Work from './work';
 import About from './about';
-import './about.css';
-import './contact.css';
 import Contact from './contact';
-import './nav.css';
 import Nav from './nav';
 import States from './contextstate';
+// import { useState , useRef } from 'react';
+  import App from './app';
+import Divider from './divider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <States>
     <React.StrictMode>
       <Nav />
-      <Home />
-      <Work />
-      <About />
+      <App />
       <Contact />
     </React.StrictMode>
   </States>
-
 
 );
 

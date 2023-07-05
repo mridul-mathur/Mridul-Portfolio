@@ -59,3 +59,26 @@
     align-items: center;
     justify-content: center;
 }
+
+.hname {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    font-size: 1rem;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .hportfolio {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 1rem;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
