@@ -2,6 +2,10 @@
   font-family: SF Pro;
   src: url(/public/SF-Pro.ttf);
 }
+html{
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
 body {
   margin: 2rem;
   padding:0;
