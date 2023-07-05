@@ -8,16 +8,15 @@ import About from './about';
 import Contact from './contact';
 import Nav from './nav';
 import States from './contextstate';
-// import { useState , useRef } from 'react';
-  import App from './app';
-import Divider from './divider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <States>
     <React.StrictMode>
       <Nav />
-      <App />
+      <Home />
+      <Work />
+      <About />
       <Contact />
     </React.StrictMode>
   </States>
