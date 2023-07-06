@@ -1,15 +1,15 @@
 @font-face {
   font-family: SF Pro;
-  src: url(/public/SF-Pro.ttf);
+  src: url(./SF-Pro.woff2) format('woff2');
 }
 html{
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-  z-index: 10;
 }
 body {
   margin: 0;
   padding:0;
   background-color: #191919;
   font-family: SF Pro;
+  z-index: -1;
 }

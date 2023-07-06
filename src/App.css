@@ -1,15 +1,16 @@
 .scroll-container{
     scroll-snap-type: y mandatory;
-    
+    scroll-behavior: smooth;
 }
 .sec1,.sec2,.sec3{
-    padding-top: 15vh;
-    padding-bottom: 15vh;
+    scroll-padding-top: 100vh;
+    scroll-padding-bottom: 100vh;
     scroll-snap-align: top;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 100rem 0;
+    margin: 250rem 0;
+    z-index: 100;
 }
 .mid-sec{
     height: 100vh;
