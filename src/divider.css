@@ -1,5 +1,11 @@
 .divi{
     width: 100%;
-    height: 100%;
-    background-color: #191919;
+    background-color: #f6f6f6;
+    scroll-snap-align: start, end;
+}
+.divi p{
+    font-size: 12rem;
+    text-align: center;
+    -webkit-text-stroke: 8px #191919;
+    -webkit-text-fill-color: #f6f6f6;
 }
