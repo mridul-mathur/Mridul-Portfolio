@@ -6,7 +6,7 @@ let content = ["Mridul Mathur", "Portfolio 2023", "Proof of work", "Get an insig
 const array = ["2", "3", "4", "5", "6", "7", "8", "H1"];
 function Work() {
     const images = array.map(image =>{
-        return <img key={image}  src={require(`/${image}.png`)} alt="case" className="image" />
+        return <img key={image}  src={require(`/${image}.webp`)} alt="case" className="image" />
     });
     return (
         <div className="wpage">

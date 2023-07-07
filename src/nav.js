@@ -21,7 +21,7 @@ function Nav() {
                     <li>Work</li>
                     <li>
                         <div className="circle">
-                            <img src="./Logo.png" alt="" style={{
+                            <img src="./Logo.webp" alt="" style={{
                                 width: "2rem",
                                 height: "2rem",
                             }} />
