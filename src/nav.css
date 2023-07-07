@@ -1,29 +1,32 @@
 
 .navbar{
-    background-color: #f6f6f6;
-    position: fixed;
-    top: 2rem;
-    left: 50%;
-    right: 50%;
+    position: fixed ;
+    background: rgba(246, 246, 246, 0.75);
+    backdrop-filter: blur(17.5px);
+    top:1rem;
+    left: 0.5%;
+    right: 0.5%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    align-self: center;
     z-index: 1;
-    align-items: center;
-    justify-content: center;
+    border: 1px solid #191919;
+    border-radius: 2rem;
 }
 
 .navbar .circle{
-    background-color: #f6f6f6;
     border: 1px solid #191919;
+    background: #f6f6f6;
+    backdrop-filter: blur(17.5px);
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    z-index: 1;
 }
 
 .navbar .nav{
@@ -36,10 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #191919;
-    border-radius: 2rem;
     height: 3rem;
-    background-color: #f6f6f6;
 }
 
 .nav ul{
@@ -63,7 +63,6 @@
 
 .hname {
     position: fixed;
-    top: 2rem;
     left: 2rem;
     font-size: 1rem;
     font-family: SF Pro;
@@ -75,7 +74,6 @@
 
   .hportfolio {
     position: fixed;
-    top: 2rem;
     right: 2rem;
     font-size: 1rem;
     font-family: SF Pro;
