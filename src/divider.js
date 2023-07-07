@@ -4,6 +4,7 @@ import './divider.css';
 function Divi(){
     return(
     <div className="divi">
+        <p> learning... </p>
     </div>
     )
 }

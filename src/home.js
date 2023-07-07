@@ -1,7 +1,7 @@
 import './home.css';
 import React from 'react';
 
-let content = ["Experienced In \n Learning", "over 10 personal projects, along with contribution to 3+ communities, and a year long experience in UI/UX & Web development.", "Build stunning visual aspects for your ideas in this growing digital world.", "26 . 05 . 2023", "Mridul Mathur", "Portfolio 2023"];
+let content = ["Experienced In \n Learning", "Over 10 personal projects, along with contribution to 3+ communities, and a year long experience in UI/UX & Web development.", "Build stunning visual aspects for your ideas in this growing digital world.", "26 . 05 . 2003", "Mridul Mathur", "Portfolio 2023"];
 
 function Home() {
   return (

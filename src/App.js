@@ -10,12 +10,12 @@ function App() {
     <div className='scroll-container'>
       <section className='sec1'>
         <Home/>
+        <Divider/>
       </section>
-      <Divider/>
       <section className='sec2'>
       <Work />
-      </section>
       <Divider/>
+      </section>
       <section className='sec3'>
       <About />
       </section>
