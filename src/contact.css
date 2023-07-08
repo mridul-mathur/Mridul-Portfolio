@@ -15,7 +15,7 @@
     background: rgba(246, 246, 246, 0.75);
     backdrop-filter: blur(17.5px);
     z-index: 1;
-    transition: ease-in 1s;
+    transition: ease-in 0.5s;
 }
 .cpage-hidden {
     position: sticky;
@@ -24,13 +24,14 @@
     padding: 2rem;
     margin: 2rem;
     flex-direction: column;
+    opacity: 0;
     border-radius: 1.25rem 1.25rem 0rem 0rem;
     border-top: 1px solid #191919;
     border-right: 1px solid #191919;
     border-left: 1px solid #191919;
     background: rgba(246, 246, 246, 0.75);
     backdrop-filter: blur(17.5px);
-    transition: ease-out 1s;
+    transition: ease-out 0.5s;
 }
 
 .p1 {
@@ -116,7 +117,7 @@
 }
 
 .cbutton {
-    margin-top: 2rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: row;
     justify-self: center;
@@ -167,4 +168,8 @@
     padding: 0;
     background-color: transparent;
     outline: none;
+}
+
+.cparent1{
+    padding-bottom: 2rem;
 }
