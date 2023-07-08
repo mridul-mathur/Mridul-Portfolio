@@ -1,6 +1,6 @@
 .apage {
-  margin: 4rem 0 0 0;
-  padding: 8rem 2rem 8rem  2rem;
+  margin:0;
+  padding: 0;
   height: 100vh;
   width: 100%;
   scroll-snap-align: start;

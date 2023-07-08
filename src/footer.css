@@ -6,12 +6,7 @@
     border-left: 1px solid #191919;
     background: rgba(246, 246, 246, 0.75);
     backdrop-filter: blur(17.5px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    justify-self: center;
-    align-self: center;
-    margin: auto auto -1rem auto; 
+    margin: auto;
     scroll-snap-align: end;
     padding-bottom: 2rem;
 }
@@ -47,8 +42,7 @@
     align-items: center;
     gap:0.5rem;
 }
-
-.socials a{
+a{
     text-decoration: none;
     color: #191919;
 }

@@ -1,13 +1,11 @@
 .wpage {
-    margin: 8rem 0 0 0;
+    margin: 0;
     padding-top: 15vh;
     padding-bottom: 50vh;
     height: 100%;
     scroll-snap-align: start;
     scroll-snap-type: proximity;
     width: 100%;
-    display: flex;
-    flex-direction: column;
     background-color: #F6F6F6;
 }
 
@@ -54,43 +52,6 @@
 .wheading p {
     margin: 0;
     padding: 0;
-}
-
-
-.wpage .wparent2 {
-    font-size: 1rem;
-    font-family: SF Pro;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: top;
-    width: 100%;
-}
-
-.wparent2 .wcontent {
-    top:2rem;
-    gap: 2rem;
-    display: flex;
-    flex-direction: column;
-    width: 25rem;
-}
-
-.wcontent .wpara2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.wcontent .wpara2 p {
-    margin: 0;
-    padding: 0;
-}
-
-.wcontent .wpara2 ul li {
-    margin-top: 0.5rem;
 }
 
 .wpage .wparent3 {
@@ -140,19 +101,22 @@
     line-height: normal;
 }
 
-.wcase{
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: right;
-    gap: 2rem;
-    width: 36rem;
+
+.wparent2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 2rem;
+    width: 100%;
+    margin:2rem 0;
+    row-gap: 2rem;
 }
 
+.wcase{
+    border-radius: 1.25rem;
+}
 .wcase .image{
-    max-width: 36rem;
-    height: 25rem;
-    object-fit: contain;
-    border-radius: 2px;
+    width: 100%;
+    border-radius: 1.25rem;
+    object-fit: cover; 
+    height:26rem;
 }

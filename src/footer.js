@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             <div className="content1">
-                <p>mridulmathur2630@gmail.com</p>
+                <p><a href= "https://mail.google.com/mail/u/0/?fs=1&to=mridulmathur2630@gmail.com&su=&body=&tf=cm" >mridulmathur2630@gmail.com </a></p>
                 <p className="name">Mridul Mathur</p>
                 <p>© 2023 - All Rights Reserved</p>
             </div>
