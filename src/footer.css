@@ -11,8 +11,7 @@
     justify-content: space-evenly;
     justify-self: center;
     align-self: center;
-    margin: auto auto 0 auto;
-    z-index: 9999;  
+    margin: auto auto -1rem auto; 
     scroll-snap-align: end;
     padding-bottom: 2rem;
 }
@@ -22,6 +21,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
 }
 
 .content1 .name{
@@ -46,4 +46,9 @@
     justify-content: space-evenly;
     align-items: center;
     gap:0.5rem;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #191919;
 }

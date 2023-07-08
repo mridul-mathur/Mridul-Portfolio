@@ -8,13 +8,13 @@ function App() {
   return (
     <div className='scroll-container'>
       <section className='sec1'>
-        <Home/>
+        <Home />
       </section>
       <section className='sec2'>
-      <Work />
+        <Work />
       </section>
       <section className='sec3'>
-      <About />
+        <About />
       </section>
     </div>
   )
