@@ -6,7 +6,7 @@
     border-left: 1px solid #191919;
     background: rgba(246, 246, 246, 0.75);
     backdrop-filter: blur(17.5px);
-    margin: auto;
+    margin: 0 auto;
     scroll-snap-align: end;
     padding-bottom: 2rem;
 }
