@@ -1,6 +1,6 @@
 .apage {
   margin:0;
-  padding:20vh 0 0 0;
+  padding:20vh 0 8vh 0;
   height: 100vh;
   width: 100%;
   scroll-snap-align: start;
@@ -28,6 +28,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
 }
 
 .aparent1 .asubheading {
@@ -37,7 +38,7 @@
   font-style: normal;
   font-weight: 250;
   line-height: 110%;
-  width: 42rem;
+  width: 50%;
   float: right;
 }
 
@@ -80,7 +81,7 @@
 
 .aparent2 .apara {
   float: right;
-  width: 42rem;
+  width: 50%;
   font-size: 1rem;
   font-family: SF Pro;
   font-style: normal;
@@ -102,16 +103,30 @@
   padding: 0;
 }
 
+.aparent3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.atools{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
 .atools ul {
   font-size: 3.5rem;
   font-family: SF Pro;
   font-style: normal;
   font-weight: 250;
   line-height: 110%;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100vw;
+  width: 100%;
   padding: 0;
   margin: 0;
 }

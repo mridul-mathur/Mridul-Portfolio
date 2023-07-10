@@ -7,21 +7,23 @@
     scroll-snap-type: proximity;
     width: 100%;
     background-color: #F6F6F6;
+    justify-content: space-between;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .wpage .wparent1 {
-    top:15vh;
-    margin-top: 2rem;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: top;
+    align-items: center;
 }
 
 .wpage .wheading {
-    display: flex;
-    width: 25rem;
-    color: #191919;
+    width: 30%;
     text-align: left;
     font-size: 6rem;
     font-family: SF Pro;
@@ -32,16 +34,13 @@
 }
 
 .wpage .wsubheading {
-    position: absolute;
-    right: 2rem;
     float: right;
-    color: #191919;
     font-size: 3.5rem;
     font-family: SF Pro;
     font-style: normal;
     font-weight: 250;
     line-height: 110%;
-    width: 42rem;
+    width: 50%;
 }
 
 .wsubheading p {
@@ -89,7 +88,7 @@
 }
 
 .wprocessheading p {
-    margin-bottom: 1rem;
+    margin: 0;
     padding: 0;
 }
 
@@ -107,8 +106,9 @@
     grid-template-columns: repeat(2, auto);
     column-gap: 2rem;
     width: 100%;
-    margin:2rem 0;
+    margin: 0;
     row-gap: 2rem;
+    padding: 0;
 }
 
 .wcase{

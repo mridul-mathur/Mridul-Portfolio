@@ -14,7 +14,6 @@
   justify-self: center;
   align-self: center;
   width: 40.375rem;
-  color: #191919;
   text-align: center;
   font-size: 6rem;
   font-family: SF Pro;
@@ -52,13 +51,12 @@
 
 .hpage .hsubheading {
   float: right;
-  color: #191919;
   font-size: 3.5rem;
   font-family: SF Pro;
   font-style: normal;
   font-weight: 250;
   line-height: 110%;
-  width: 42rem;
+  width: 50%;
 }
 
 .hsubheading p {
@@ -69,6 +67,10 @@
 .hpara .hparent {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-self: start;
+  margin: 0;
+  padding: 0;
 }
 .hpage{
   scroll-snap-type: y mandatory;
