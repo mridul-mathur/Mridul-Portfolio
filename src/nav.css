@@ -1,19 +1,17 @@
 
 .navbar{
-    position: fixed ;
     background: rgba(246, 246, 246, 0.75);
     backdrop-filter: blur(17.5px);
-    top:1rem;
-    left: 0.5%;
-    right: 0.5%;
+    width: 90%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
+    margin: auto;
     z-index: 1;
     border: 1px solid #191919;
     border-radius: 2rem;
+    position: sticky;
+    top: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar .circle{
@@ -37,8 +35,7 @@
     line-height: normal;
     color: #191919;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
     height: 3rem;
 }
 
@@ -62,7 +59,7 @@
 }
 
 .hname {
-    position: fixed;
+    position: absolute;
     left: 2rem;
     font-size: 1rem;
     font-family: SF Pro;
@@ -73,7 +70,7 @@
   }
 
   .hportfolio {
-    position: fixed;
+    position: absolute;
     right: 2rem;
     font-size: 1rem;
     font-family: SF Pro;
