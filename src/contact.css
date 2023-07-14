@@ -36,18 +36,14 @@
 
 .p1 {
     margin: 0;
-    color: #191919;
     font-size: 3.5rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 250;
     line-height: 110%;
 }
 
 .p2 {
-    color: #191919;
     font-size: 6rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 700;
     line-height: 100%;
@@ -58,9 +54,7 @@
 .ccontent {
     display: inline-flex;
     flex-direction: row;
-    color: #191919;
     font-size: 3.5rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 250;
     line-height: 110%;
@@ -72,15 +66,12 @@
 .ccontent ::placeholder{
     color: #1919191a;
     font-size: 3.5rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 250;
     line-height: 110%;
 }
 .ccontent .cinput {
-    color: #191919;
     font-size: 3.5rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 250;
     line-height: 110%;
@@ -96,7 +87,6 @@
     background-color: transparent;
     outline: none;
     font-size: 3.5rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 250;
     line-height: 110%;
@@ -110,7 +100,6 @@
     background-color: transparent;
     outline: none;
     font-size: 3.5rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 250;
     line-height: 110%;
@@ -129,7 +118,6 @@
 
 .cbutton input[type="submit"] {
     font-size: 1rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -141,10 +129,9 @@
 }
 
 .cbutton a {
-    text-decoration: none;
     color: #191919;
+    text-decoration: none;
     font-size: 1rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -159,7 +146,6 @@
     text-decoration: none;
     color: #191919;
     font-size: 1rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 500;
     line-height: normal;

@@ -1,17 +1,16 @@
 @font-face {
-  font-family: SF Pro;
-  src: url(./SF-Pro.woff2) format('woff2');
-  font-display: swap;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 html{
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
 body {
-  width: 100%;
+  width: 100vw;
   margin: 0;
   padding:0;
   background-color: #F6F6F6;
-  font-family: SF Pro;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;;
   z-index: -1;
+  color: #191919;
 }

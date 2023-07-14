@@ -29,11 +29,9 @@
 
 .navbar .nav{
     font-size: 1rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    color: #191919;
     display: flex;
     margin: auto;
     height: 3rem;
@@ -62,7 +60,6 @@
     position: absolute;
     left: 2rem;
     font-size: 1rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -73,7 +70,6 @@
     position: absolute;
     right: 2rem;
     font-size: 1rem;
-    font-family: SF Pro;
     font-style: normal;
     font-weight: 500;
     line-height: normal;

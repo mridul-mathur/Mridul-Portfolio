@@ -1,7 +1,7 @@
 .hpage {
   background-color: #f6f6f6;
   margin:0;
-  padding:0;
+  padding-bottom: 2rem;
   height: 100%;
   width: 100%;
   display: flex;
@@ -16,7 +16,6 @@
   width: 40.375rem;
   text-align: center;
   font-size: 6rem;
-  font-family: SF Pro;
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
@@ -33,7 +32,6 @@
 
 .hpara .hcontent1 {
   font-size: 1rem;
-  font-family: SF Pro;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -42,7 +40,6 @@
 
 .hpara .hcontent2 {
   font-size: 1rem;
-  font-family: SF Pro;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -52,7 +49,6 @@
 .hpage .hsubheading {
   float: right;
   font-size: 3.5rem;
-  font-family: SF Pro;
   font-style: normal;
   font-weight: 250;
   line-height: 110%;
