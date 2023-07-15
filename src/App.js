@@ -1,7 +1,8 @@
 import Home from './home';
 import Work from './work';
 import About from './about';
-import React from 'react'
+import React from 'react';
+import Footer from './footer';
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <section className='sec3'>
         <About />
       </section>
+      <Footer/>
     </div>
   )
 }

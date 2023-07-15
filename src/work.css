@@ -99,10 +99,10 @@
 .wparent2 {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    column-gap: 2rem;
+    column-gap: 1rem;
+    row-gap: 1rem;
     width: 100%;
     margin: 0;
-    row-gap: 2rem;
     padding: 0;
 }
 
@@ -112,6 +112,6 @@
 .wcase .image{
     width: 100%;
     border-radius: 1.25rem;
-    object-fit: cover; 
-    height:26rem;
+    object-fit: cover;
+    height:99%;
 }

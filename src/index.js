@@ -5,7 +5,7 @@ import Contact from './contact';
 import Nav from './nav';
 import App from './App';
 import States from './contextstate';
-import Footer from './footer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +13,6 @@ root.render(
     <React.StrictMode>
       <Nav />
       <App/>
-      <Footer />
       <Contact />
     </React.StrictMode>
   </States>

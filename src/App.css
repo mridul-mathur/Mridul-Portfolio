@@ -1,18 +1,18 @@
 .scroll-container{
-    margin: 12rem 0 0 0 ;
-    padding: 0 0 0 0 ;
+    margin: 0 ;
+    padding: 0;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
 .sec1,.sec2,.sec3{
     scroll-padding-top: 100vh;
     scroll-padding-bottom: 100vh;
-    scroll-snap-align: top;
+    scroll-snap-align: start;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 0 3rem;
+    justify-content: space-between;
+    margin: 8rem 3rem;
     z-index: 100;
     padding: auto;
 }
