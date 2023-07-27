@@ -12,16 +12,28 @@
 }
 
 .hpage .hheading {
+  overflow: hidden;
   display: flex;
-  justify-self: center;
-  align-self: center;
+  margin: 6rem auto;
   width: 40.375rem;
+  height: auto;
+}
+
+.hheading p{
+  margin: 0;
   text-align: center;
   font-size: 6rem;
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
   text-transform: capitalize;
+  transform: translateY(-100%);
+  animation: slideDown 1s cubic-bezier(0.165, 0.84, 0.44,1) forwards;
+}
+@keyframes slideDown {
+  to{
+    transform: translateY(0);
+  }
 }
 
 .hpage .hpara {
