@@ -1,87 +1,93 @@
+/* font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal; */
+
+/* float: right;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 250;
+line-height: 110%; */
+/* 
+font-size: 6rem;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; */
+
+
 .hpage {
-  background-color: #f6f6f6;
-  margin:0;
-  margin-top: 2rem;
-  padding:0;
+  width: auto;
   height: 100vh;
-  width: 100%;
-  display: flex;
-  scroll-snap-align: end;
-  flex-direction: column;
+  padding: 2rem;
+  color: #191919;
   justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .hpage .hheading {
-  overflow: hidden;
   display: flex;
-  margin: 6rem auto;
-  width: 40.375rem;
-  height: auto;
+  align-self: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+  width: 40rem;
 }
 
 .hheading p{
-  margin: 0;
-  text-align: center;
   font-size: 6rem;
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
-  text-transform: capitalize;
-  transform: translateY(-100%);
-  animation: slideDown 1s cubic-bezier(0.165, 0.84, 0.44,1) forwards;
-}
-@keyframes slideDown {
-  to{
-    transform: translateY(0);
-  }
-}
-
-.hpage .hpara {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1rem;
-}
-
-.hpara .hcontent1 {
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  width: 13.5rem;
-}
-
-.hpara .hcontent2 {
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  width: 14rem;
-}
-
-.hpage .hsubheading {
-  float: right;
-  font-size: 3.5rem;
-  font-style: normal;
-  font-weight: 250;
-  line-height: 110%;
-  width: 50%;
-}
-
-.hsubheading p {
+  text-align: center;
   margin: 0;
   padding: 0;
 }
 
-.hpara .hparent {
+.hpage .hparent{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-self: start;
+  align-items: center;
+  width: 100%;
+}
+
+.hparent .hpara{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  width: 14rem;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
-.hpage{
-  scroll-snap-type: y mandatory;
+.hparent .hpara p{
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.hparent .hsubheading{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 45rem;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.hsubheading p{
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 250;
+line-height: 110%;
+text-align: left;
+margin: 0;
+padding: 0;
 }

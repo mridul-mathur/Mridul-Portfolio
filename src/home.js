@@ -11,12 +11,8 @@ function Home() {
         </div>
         <div className='hparent'>
         <div className="hpara">
-            <div className='hcontent1'>
                 <p> {content[1]} </p>
-            </div>
-            <div className='hcontent2'>
                 <p> {content[3]} </p>
-            </div>
         </div>
         <div className="hsubheading">
             <p> {content[2]} </p>

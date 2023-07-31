@@ -1,13 +1,10 @@
 .wpage {
+    width: auto;
     margin: 0;
-    padding-top: 15vh;
-    padding-bottom: 50vh;
-    height: 100%;
-    scroll-snap-align: start;
-    scroll-snap-type: proximity;
-    width: 100%;
+    padding: 2rem;
     background-color: #F6F6F6;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
     display: flex;
     flex-direction: column;
@@ -108,10 +105,17 @@
 
 .wcase{
     border-radius: 1.25rem;
+    width: 100%;
 }
 .wcase .image{
-    width: 100%;
+    width:100%;
     border-radius: 1.25rem;
     object-fit: cover;
-    height:99%;
+    height: 100%;
+    transition: all 0.3s ease-out;
+}
+.wcase .image:hover{
+    scale: 0.95;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-out;
 }

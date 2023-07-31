@@ -1,9 +1,8 @@
 .apage {
   margin:0;
-  padding:20vh 0 8vh 0;
+  padding: 2rem;
   height: 100vh;
-  width: 100%;
-  scroll-snap-align: start;
+  width: auto;
   display: flex;
   align-items: baseline;
   overflow: hidden;

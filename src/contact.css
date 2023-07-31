@@ -1,11 +1,13 @@
 .cpage-display {
-    position: sticky;
+    width: auto;
+    padding: 2rem;
+    position: fixed;
     bottom: 0%;
     display: flex;
     overflow: hidden;
-    justify-content: column;
-    padding: 2rem;
-    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
     flex-direction: column;
     align-self: baseline;
     border-radius: 1.25rem 1.25rem 0rem 0rem;
@@ -18,11 +20,10 @@
     transition: ease-in 0.5s;
 }
 .cpage-hidden {
-    position: sticky;
+    width: auto;
+    position: fixed;
     bottom: -100%;
-    overflow: hidden;
     padding: 2rem;
-    margin: 2rem;
     flex-direction: column;
     opacity: 0;
     border-radius: 1.25rem 1.25rem 0rem 0rem;

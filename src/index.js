@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Contact from './contact';
 import Nav from './nav';
-import App from './App';
 import States from './contextstate';
+import Home from './home';
+import Work from './work';
+import About from './about';
+import Footer from './footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,7 +15,10 @@ root.render(
   <States>
     <React.StrictMode>
       <Nav />
-      <App/>
+      <Home />
+      <Work />
+      <About />
+      <Footer />
       <Contact />
     </React.StrictMode>
   </States>
