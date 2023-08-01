@@ -1,7 +1,6 @@
 .apage {
   margin:0;
-  padding: 2rem;
-  height: 100vh;
+  padding:4rem 2rem;
   width: auto;
   display: flex;
   align-items: baseline;
@@ -52,6 +51,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  height: 100%;
   align-items: center;
 }
 
@@ -72,29 +72,24 @@
   margin: 0;
 }
 
-.aparent2 .apara {
-  float: right;
+.apara {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.apara p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  justify-content: space-evenly;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.aparent2 .apara1 p {
   margin: 0;
   padding: 0;
 }
-
-.aparent2 .apara2 p {
-  margin: 0;
-  padding: 0;
-}
-
 .aparent3{
   display: flex;
   flex-direction: row;

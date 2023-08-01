@@ -9,4 +9,5 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;;
   z-index:0;
   color: #191919;
+  transition: all 0.5s ease-out;
 }

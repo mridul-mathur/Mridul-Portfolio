@@ -1,15 +1,14 @@
 .cpage-display {
-    width: auto;
+    position:sticky;
+    margin: auto;
+    width: 90vw;
     padding: 2rem;
-    position: fixed;
     bottom: 0%;
     display: flex;
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    margin: 0;
     flex-direction: column;
-    align-self: baseline;
     border-radius: 1.25rem 1.25rem 0rem 0rem;
     border-top: 1px solid #191919;
     border-right: 1px solid #191919;
@@ -20,12 +19,13 @@
     transition: ease-in 0.5s;
 }
 .cpage-hidden {
-    width: auto;
     position: fixed;
+    margin: auto;
+    width: 90vw;
     bottom: -100%;
     padding: 2rem;
     flex-direction: column;
-    opacity: 0;
+    visibility: hidden;
     border-radius: 1.25rem 1.25rem 0rem 0rem;
     border-top: 1px solid #191919;
     border-right: 1px solid #191919;

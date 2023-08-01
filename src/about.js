@@ -32,12 +32,8 @@ function About() {
                     </div>
                 </div>
                 <div className="apara">
-                    <div className="apara1">
-                        <p> {content[10]} </p>
-                    </div>
-                    <div className="apara2">
-                        <p> {content[11]} </p>
-                    </div>
+                    <p> {content[10]} </p>
+                    <p> {content[11]} </p>
                 </div>
             </div>
             <div className="aparent3">

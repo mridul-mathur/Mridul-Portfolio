@@ -1,13 +1,14 @@
 .wpage {
     width: auto;
     margin: 0;
-    padding: 2rem;
+    padding:4rem 2rem;
     background-color: #F6F6F6;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 2rem;
     display: flex;
     flex-direction: column;
+    border-bottom: 2px solid #191919;
 }
 
 .wpage .wparent1 {
