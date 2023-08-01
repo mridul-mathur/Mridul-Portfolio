@@ -17,13 +17,15 @@ line-height: 100%; */
 
 .hpage {
   width: auto;
-  height: 100vh;
+  height: 90vh;
   padding: 2rem;
+  padding-bottom: 0;
   color: #191919;
   justify-content: space-around;
   align-items: center;
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid #191919;
 }
 
 .hpage .hheading {
@@ -58,7 +60,7 @@ line-height: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: start;
+  align-items: flex-start;
   width: 14rem;
   height: 100%;
   margin: 0;
@@ -76,7 +78,7 @@ line-height: 100%; */
 .hparent .hsubheading{
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   width: 45rem;
   height: 100%;
   margin: 0;
