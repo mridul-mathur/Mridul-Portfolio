@@ -1,7 +1,7 @@
 .cpage-display {
-    position:sticky;
-    margin: auto;
-    width: 90vw;
+    position: sticky;
+    margin:0 2rem;
+    width: auto;
     padding: 2rem;
     bottom: 0%;
     display: flex;
@@ -16,14 +16,14 @@
     background: rgba(246, 246, 246, 0.75);
     backdrop-filter: blur(17.5px);
     z-index: 1;
-    transition: ease-in 0.5s;
+    transition: ease-in 5s;
 }
 .cpage-hidden {
-    position: fixed;
-    margin: auto;
-    width: 90vw;
-    bottom: -100%;
+    position:fixed;
+    margin:0 2rem;
+    width: auto;
     padding: 2rem;
+    bottom: -100%;
     flex-direction: column;
     visibility: hidden;
     border-radius: 1.25rem 1.25rem 0rem 0rem;
@@ -32,7 +32,7 @@
     border-left: 1px solid #191919;
     background: rgba(246, 246, 246, 0.75);
     backdrop-filter: blur(17.5px);
-    transition: ease-out 0.5s;
+    transition: ease-out 5s;
 }
 
 .p1 {
