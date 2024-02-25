@@ -17,13 +17,13 @@ function Work() {
             <div className="wparent2">
                 <div className="wcase">
                     <a href="https://www.figma.com/proto/Bz9YS9MD3iTeqBZ6734aVy/A-photographer's-Portfolio?page-id=0%3A1&type=design&node-id=4-2&viewport=315%2C268%2C0.14&t=SvXfZfnINoRLrAON-1&scaling=scale-down-width&starting-point-node-id=4%3A2&mode=design" target="_blank" rel="noreferrer" >
-                        <img className="image" alt="case" src={require('./8.webp')}>
+                        <img className="image" alt="case" src={require('./1.webp')}>
                         </img>
                     </a>
                 </div>
                 <div className="wcase">
                     <a href="https://www.figma.com/proto/bhMrkVCEyaFmMOWfhnLqSN/DAPS-Landing-Page?page-id=0%3A1&type=design&node-id=2-3&viewport=254%2C292%2C0.04&t=nDoL2lM1XRsxsEm6-1&scaling=scale-down-width&starting-point-node-id=2%3A3&mode=design" target="_blank" rel="noreferrer">
-                        <img className="image" alt="case" src={require('./9.webp')}>
+                        <img className="image" alt="case" src={require('./2.webp')}>
                         </img>
                     </a>
                 </div>
@@ -35,31 +35,43 @@ function Work() {
                 </div>
                 <div className="wcase">
                     <a href="https://www.figma.com/proto/8ZBCQMOS8xbIX4V4D6HMPI/Educash?page-id=0%3A1&type=design&node-id=1-16&viewport=1173%2C573%2C0.2&t=DtHMIG1lquZO7Qwa-1&scaling=scale-down-width&starting-point-node-id=1%3A16&mode=design" target="_blank" rel="noreferrer">
-                        <img className="image" alt="case" src={require('./1.webp')}>
-                        </img>
-                    </a>
-                </div>
-                <div className="wcase">
-                    <a href="https://www.figma.com/proto/3bGw6LsrCIJL6i4VcY5U8n/S%40!OMYO?page-id=0%3A1&type=design&node-id=574-218&viewport=-1052%2C65%2C0.09&t=D2kn5VcM1xYuY59g-1&scaling=scale-down-width&mode=design" target="_blank" rel="noreferrer">
-                        <img className="image" alt="case" src={require('./2.webp')}>
-                        </img>
-                    </a>
-                </div>
-                <div className="wcase">
-                    <a href="https://www.figma.com/proto/9cU3cr4JsaTyQev37kPGCP/JU-Verse?page-id=0%3A1&type=design&node-id=156-251&viewport=395%2C154%2C0.28&t=2H0Djkb78WksPXKC-1&scaling=min-zoom&starting-point-node-id=156%3A251&mode=design" target="_blank" rel="noreferrer">
                         <img className="image" alt="case" src={require('./4.webp')}>
                         </img>
                     </a>
                 </div>
                 <div className="wcase">
-                    <a href="https://www.figma.com/proto/A1oz5exN3fRnGv8PEHMXKH/Solana-Ecosystem?page-id=0%3A1&type=design&node-id=291-374&viewport=1646%2C2092%2C0.23&t=ahSkWlY2OxYDNmYL-1&scaling=scale-down-width&starting-point-node-id=291%3A374&mode=design" target="_blank" rel="noreferrer">
+                    <a href="https://www.figma.com/proto/3bGw6LsrCIJL6i4VcY5U8n/S%40!OMYO?page-id=0%3A1&type=design&node-id=574-218&viewport=-1052%2C65%2C0.09&t=D2kn5VcM1xYuY59g-1&scaling=scale-down-width&mode=design" target="_blank" rel="noreferrer">
                         <img className="image" alt="case" src={require('./5.webp')}>
                         </img>
                     </a>
                 </div>
                 <div className="wcase">
-                    <a href="https://www.figma.com/proto/Zp9XrPhj6PiRjetKsOozeU/Inspiration%5C?page-id=0%3A1&type=design&node-id=1-2&viewport=282%2C25%2C0.13&t=QavjqgpNhPvdVb6h-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design" target="_blank" rel="noreferrer">
+                    <a href="https://www.figma.com/proto/GoXSKH96zuSSajS2e0HVLV/Login-Page?page-id=0%3A1&node-id=2-2&mode=design&t=QAx5ZqdoxMxZHHce-1" target="_blank" rel="noreferrer">
                         <img className="image" alt="case" src={require('./6.webp')}>
+                        </img>
+                    </a>
+                </div>
+                <div className="wcase">
+                    <a href="https://www.figma.com/proto/A1oz5exN3fRnGv8PEHMXKH/Solana-Ecosystem?page-id=0%3A1&type=design&node-id=291-374&viewport=1646%2C2092%2C0.23&t=ahSkWlY2OxYDNmYL-1&scaling=scale-down-width&starting-point-node-id=291%3A374&mode=design" target="_blank" rel="noreferrer">
+                        <img className="image" alt="case" src={require('./7.webp')}>
+                        </img>
+                    </a>
+                </div>
+                <div className="wcase">
+                    <a href="https://www.figma.com/proto/Zp9XrPhj6PiRjetKsOozeU/Inspiration%5C?page-id=0%3A1&type=design&node-id=1-2&viewport=282%2C25%2C0.13&t=QavjqgpNhPvdVb6h-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design" target="_blank" rel="noreferrer">
+                        <img className="image" alt="case" src={require('./8.webp')}>
+                        </img>
+                    </a>
+                </div>
+                <div className="wcase">
+                    <a href="https://www.figma.com/proto/Zp9XrPhj6PiRjetKsOozeU/Inspiration%5C?page-id=0%3A1&type=design&node-id=1-2&viewport=282%2C25%2C0.13&t=QavjqgpNhPvdVb6h-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design" target="_blank" rel="noreferrer">
+                        <img className="image" alt="case" src={require('./9.webp')}>
+                        </img>
+                    </a>
+                </div>
+                <div className="wcase">
+                    <a href="https://www.figma.com/proto/IOWYgCFm6PArNWqxc5uqOV/LinkedIn-Redesign?page-id=0%3A1&node-id=26-23&starting-point-node-id=26%3A23&mode=design&t=BPIqoVxwzoPGkl72-1" target="_blank" rel="noreferrer">
+                        <img className="image" alt="case" src={require('./10.webp')}>
                         </img>
                     </a>
                 </div>
